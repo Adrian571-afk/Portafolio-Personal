@@ -1,0 +1,25 @@
+header{
+    background-color: #7E0000 !important;
+}
+
+.contenedor{
+    margin-top: 10rem !important;
+}
+
+.logotipo{
+    width: 75px;
+}
+
+.img-desarrollador{
+    height: 40rem;
+    border-radius: 20%;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Righteous', sans-serif;
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.25rem;
+}

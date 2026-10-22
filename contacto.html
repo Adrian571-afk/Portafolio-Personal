@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="©️ 2026 Carlos Adrian Rocha López">
+    <meta name="description" content="Portafolio de proyectos, estudiante de TSU en Desarrollo de Software Multiplataforma">
+    <meta name="keywords" content="portafolio, proyectos, desarrollo de software, TSU, Carlos Rocha, diseño web, programación">
+    
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="shortcut icon" href="iconos/" type="image/x-icon">
+    
+    <title>Contacto</title>
+
+</head>
+<body class="bg-dark text-light">
+    
+    <header class="navbar navbar-expand-lg py-0 navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="imagenes/kon.jpeg" alt="Logo" class="logotipo me-3">
+                <div>
+                    <span class="d-block fw-bold fs-4">Carlos Rocha</span>
+                    <small class="d-block text-light fs-6">Estudiante de TSU en Desarrollo de Software Multiplataforma</small>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#quien">Sobre Mi</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                    <a class="nav-link" href="#intereses">Intereses</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="contacto" class="container contenedor mt-5 pb-5">
+        <h1 class="display-4 fw-bold text-center text-danger mb-5">Contáctame</h1>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                
+                <form action="https://formspree.io/f/xqppzlge" method="POST">
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="nombre" class="form-label text-light">Nombre</label>
+                            <input type="text" class="form-control bg-dark text-light border-secondary" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                            <label for="email" class="form-label text-light">Correo Electrónico</label>
+                            <input type="email" class="form-control bg-dark text-light border-secondary" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label text-light">Asunto</label>
+                        <input type="text" class="form-control bg-dark text-light border-secondary" id="asunto" name="asunto" required>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="mensaje" class="form-label text-light">Mensaje</label>
+                        <textarea class="form-control bg-dark text-light border-secondary" id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    
+                    <div class="d-grid gap-2 col-md-6 mx-auto">
+                        <button type="submit" class="btn btn-outline-danger btn-lg fw-bold">Enviar Mensaje</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicación" class="container bg-danger p-0 pt-2 pb-3 pt-lg-5">
+        <h1 class="display-4 fw-bold text-center text-light pb-3 d-none d-lg-block">Ubicación</h1>
+        <div class="row justify-content-center m-0">
+            <div class="col-12 p-0"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29785.224670493517!2d-101.58407679999999!3d21.0665472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses-419!2smx!4v1792678632498!5m2!1ses-419!2smx" class="w-100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
